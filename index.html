@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meeting Minutes 4/16</title>
+        <link rel=""icon"" href="favicon.ico">
+        <meta charset="utf-8">
+        <meta name="description", content="Meeting Minutes for April 16, 2024">
+    </head>
+    <body>
+        <header>
+            <!-- nav bar -->
+            <nav>
+                <ol>
+                    <li><a href=#>Home</a></li>
+                    <li><a href=#>All Meetings</a></li>
+                </ol>
+            </nav>
+        </header>
+        <!-- main document -->
+        <h1>Post Kickoff Meeting Minutes - 04/16</h1>
+        <!-- subtitle for the meeting section/the topic of the meeting (e.g. "brainstorming", "check-ins", "documentation") -->
+        <h3>Planning/Brainstorming</h3>
+        <!-- attendance list -->
+        <h3>Attendance:</h3>
+        <ul>
+            <li>Ravi <input type="checkbox" checked></li>
+            <li>Sravya <input type="checkbox" checked></li>
+            <li>Daniel <input type="checkbox" checked></li>
+            <li>David <input type="checkbox" checked></li>
+            <li>Benji <input type="checkbox" checked></li>
+            <li>Brooke <input type="checkbox" checked></li>
+            <li>Esha <input type="checkbox" checked></li>
+            <li>Shambavi <input type="checkbox" checked></li>
+            <li>Teresa <input type="checkbox" checked></li>
+            <li>Andy <input type="checkbox" checked></li>
+            <li>Nicholas <input type="checkbox" checked></li>
+        </ul>
+        <hr>
+        <!-- agenda of what the meeting will cover -->
+        <h3>Meeting Topics</h3>
+        <ol>
+            <li>Code Style Guide</li>
+            <li>Finalizing Roles</li>
+            <li>Github Repo Expectations</li>
+            <li>Calendar Journal App early UI/logo ideas</li>
+        </ol>
+        <!-- things that were unfinished business from last meeting -->
+        <h3>Unifinished Business from Last Meeting</h3>
+        <ul>
+            <li>Finished Introductions</li>
+            <li>Uploaded video of Team Intros</li>
+        </ul>
+        <!-- things that are new business that need to be talked about -->
+        <h3>New Business</h3>
+        <ul>
+            <li>Code Style Guide Creation</li>
+            <li>Finalize Roles</li>
+            <li>Github Repo Expectations</li>
+            <ol>
+                <li>Proper use of issues</li>
+                <li>Using pull requests</li>
+                <li>Writing tests</li>
+                <li>Flushing out Calendar Journal App UI</li>
+            </ol>
+        </ul>
+        <!-- any miscellaneous comments / questions / concerns that anyone would like to bring up -->
+        <h3>Comments / questions</h3>
+        <!-- b vs strong and i vs em: b and strong both make something bold; i and em both make something italicized. However, b and i are outdated because they do not have support for disability readers. They em and strong draw attention to their contents, while i and b just change the visual look. -->
+
+        <ul>
+            <li>Feel free to create new labels for issues on Github as needed</li>
+            <li>
+                <details>
+                    <summary>Code Style Guide in progress</summary>
+                    <p>
+                        We have the <b>code style guide</b> in a google doc for editing. Once it is finalized, we will convert it to a <strong>markdown</strong> file. If you believe there is something that should be changed, open the doc, go to <em>suggesting</em>, make your edit, ad then notify <em>#general</em> on Slack.
+                    </p>
+                </details>
+            </li>
+        </ul>
+
+        <p>We have the <b>code style guide</b> in a google doc for editing. Once it is finalized, we will convert it to a <strong>markdown</strong> file. If you believe there is something that should be changed, open the doc, go to <em>suggesting</em>, make your edit, ad then notify <em>#general</em> on Slack. </p>
+
+        <hr>
+        <!-- pictures of any diagrams / architecture / things that were presented -->
+        <h3>Basic Calendar Journal Drawing/Logo Ideas</h3>
+        <img src="https://static.vecteezy.com/system/resources/previews/032/472/639/original/wall-calendar-blank-template-in-doodle-style-clip-art-for-planning-diary-sticker-hand-drawn-design-element-black-ink-contour-drawing-isolated-on-white-background-retro-sketch-style-vector.jpg" width="500">
+        <img src="https://i.pinimg.com/736x/5e/8c/95/5e8c95da8c931e3212f1e2640b0ec571.jpg"  width="500">
+        <h3>Whiteboard Notes/Drawings</h3>
+        <img src="https://d7c2r9g9.rocketcdn.me/wp-content/uploads/Microsoft-Whiteboard-Web-App.png" width="500">
+        <!-- SWE meetings often have people diagram things on a whiteboard so we want those captured as well -->
+
+        <h3>Audio and Video</h3>
+        <!-- audio recording the meeting -->
+
+        <!-- video recording of the meeting -->
+        <video controls src="clipped_video.mp4" width="200">Video</video>
+        <br>
+        <audio controls src="clipped_audio.mp4">Audio</audio>
+
+        <hr>
+        <form>
+            <fieldset>
+                <h2>Absent Form</h2>
+                <section>
+                    <span>Name: </span><input type="text">
+                </section>
+                <br>
+
+                <!-- position -->
+                <section>
+                    <div>Position:</div>
+                    <input type="radio"> 
+                    <span>Lead</span>
+                    <br>
+                    <input type="radio"> 
+                    <span>Designer</span>
+                    <br>
+                    <input type="radio"> 
+                    <span>Developer</span>
+                </section>
+                <br>
+
+                <!-- absence details -->
+                <section>
+                    <span>Date Absent:</span>
+                <input type="date">
+                <br>
+                <span>Prediscussed Absence</span>
+                <input type="checkbox">
+                </section>
+                <br>
+
+                <div>Reason for Absence:</div>
+                <input list="absence-reason">
+                <datalist id="absence-reason">
+                    <option value="School (test, lab, etc.)"></option>
+                    <option value="Health (Doctor, Dentist, etc.)"></option>
+                    <option value="Trip (out of town)"></option>
+                    <option value="Other"></option>
+                </datalist>
+                <br><br>
+
+                <!-- responsibilities -->
+                <section>
+                    <div>What responsibilities you will take on?</div>
+                    <textarea id="" cols="30" rows="10"></textarea>
+                    <br>
+
+                    <label for="confidence">Confidence with Responsibilities:</label>
+                    <br>
+                    <select id="confidence">
+                        <option value="Select">Select</option>
+                        <option value="Caught up">Caught up</option>
+                        <option value="Somewhat confused">Somewhat confused</option>
+                        <option value="Lost">Lost</option>
+                    </select>
+
+                </section>
+                <br>
+
+                <button>Submit</button>
+            </fieldset>
+        </form>
+        <footer>
+            <br>
+            <a href="#">Home</a>
+        </footer>
+    </body>
+</html>
