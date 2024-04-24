@@ -1,0 +1,111 @@
+:root {
+  --backdrop-color: pink;
+}
+
+/* variable with fallback */
+html {
+  background-color: var(--backdrop-color, red);
+}
+
+/* colors */
+h1,
+h2 {
+  color: rgba(5, 125, 230, 0.5);
+  background-color: rgba(224, 158, 119, 0.5);
+  border-style: dashed;
+  border-color: red;
+  border-width: 100%;
+}
+h3 {
+  color: hsl(50 45% 20%);
+  text-decoration: dashed;
+  border-bottom: 2px solid black;
+}
+h1 {
+  position: sticky;
+  top: 40px;
+}
+
+/* different units, text, size settings */
+#ppl-list {
+  height: 100px;
+  width: 60%;
+  margin: 10% 15% 20% 25%;
+  padding: 1cm, 2cm, 4cm, 1cm;
+  text-align: center;
+  max-width: 400px;
+  min-width: 100px;
+}
+
+.meeting-topics {
+  border: 4px solid green;
+  margin: auto;
+  padding-top: 1em;
+  border-radius: 20%;
+  width: 155mm;
+}
+
+video {
+  display: none;
+}
+
+audio:hover {
+  border: 2px dashed yellow;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 500px 200px;
+  /* grid-template-rows: [row1-start] 25% [row1-end] 50% [third-line] 25% [last-line]; */
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+
+/* different selection settings */
+/*
+a[href="#"] {
+  position: static;
+  color: steelblue;
+}
+
+ul li {
+  border-bottom: 0.1rem dashed black;
+}
+
+section > span {
+  background-color: aqua;
+}
+
+br ~ input {
+  border: 1vh solid salmon;
+}
+
+summary + p {
+  font-size: large;
+}
+
+li.meeting-topics {
+  background-color: lightgreen;
+}
+
+h3:has(+ ul) {
+  border-left: 0.5in dashed cyan;
+}
+*/
+/*
+color(colorspace c1 c2 c3[ / A])
+color-mix(method, color1[ p1], color2[ p2])
+
+
+
+
+*/
