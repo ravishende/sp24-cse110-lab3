@@ -71,7 +71,7 @@ img {
 }
 
 /* different selection settings */
-/*
+
 a[href="#"] {
   position: static;
   color: steelblue;
@@ -100,7 +100,7 @@ li.meeting-topics {
 h3:has(+ ul) {
   border-left: 0.5in dashed cyan;
 }
-*/
+
 /*
 color(colorspace c1 c2 c3[ / A])
 color-mix(method, color1[ p1], color2[ p2])
